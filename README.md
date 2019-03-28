@@ -1,4 +1,5 @@
 # new-learn_rep
-Здесь будет твоё задание:
+Here will be your task:
 
-Напиши мне, чтобы я дал права на изменения, после этого создай ветку со своими именем и прочитай файл task.txt
+Write me a copy of the rights for changes, then create a branch with your name and read the file task.txt
+(no Cyrillic)
