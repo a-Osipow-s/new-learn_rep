@@ -9,6 +9,12 @@ using namespace std;
 void bubble(int*, int);
 void insertion(int*,int);
 void hoara(int*, int, int);
+void out(int*arr,int size){
+	int i;
+	for (i = 0; i < size; i++)
+		cout << arr[i] << " ";
+	cout << endl;
+}
 
 int main()
 {
@@ -29,9 +35,7 @@ int main()
 	
 	double start_time = clock();
 	hoara(arr, 0, size - 1);
-	for (i = 0; i <size; i++)
-		cout << arr[i] << " ";
-	cout << endl;
+	out(arr,size);
 	double end_time = clock();
 	double search_time = end_time - start_time;
 	cout << "hoara metod time" << " " << search_time << endl;
@@ -57,9 +61,7 @@ unsigned int start_time = clock();
 	}
 	unsigned int end_time = clock();
 	unsigned int search_time= end_time - start_time;
-	for(i=0;i<size;i++)
-cout << arr[i]<<" ";
-	cout << endl;
+	out(arr,size);
 cout <<"bubble metod time"<<" "<< search_time << endl;
 }
 void insertion(int*arr, int size)
@@ -80,9 +82,7 @@ void insertion(int*arr, int size)
 	unsigned int end_time = clock();
 	unsigned int search_time = end_time - start_time;
 	
-	for (i = 0; i < size; i++)
-		cout << arr[i] << " ";
-	cout << endl;
+	out(arr,size);
 	cout << "Time sorting inserts" << " " << search_time << endl;
 }
 void hoara(int*arr, int first, int last)
