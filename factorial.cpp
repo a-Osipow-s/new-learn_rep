@@ -4,7 +4,7 @@ using namespace std;
 
 long double faktor(int n)
 {
-    if(n<0)
+    if(n<0)     
         return 0;
     if(n==0)
         return 1;
@@ -22,3 +22,4 @@ int main()
     return 228;
     
 }
+// молодец !
