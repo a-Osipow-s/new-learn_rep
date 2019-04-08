@@ -8,7 +8,7 @@ void insertion(int *, int);
 void hoara(int* a, int first, int last);
 int main()
 {
-	cout << "Input the mass size" << endl;
+	cout << "Input the mass size" << endl; // ввод и вывод выносим в отдельную функцию и вызываем в мэйне
 	int i;
 	int mSize;
 	cin >> mSize;
@@ -56,7 +56,7 @@ void bubble(int*mass, int mSize)
 
 	unsigned int end_time = clock(); // конечное время
 	unsigned int search_time = end_time - start_time; // искомое время
-	cout << "bubble time " << search_time << endl;
+	cout << "bubble time " << search_time << endl; // ctime работает только при вызове в мэйне, он у тебя показал время?
 }
 
 void insertion(int*mass, int mSize)
