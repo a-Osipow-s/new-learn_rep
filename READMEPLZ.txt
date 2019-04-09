@@ -1,0 +1,1 @@
+You should create branch, complete your task and then use 'git merge' to that branch
